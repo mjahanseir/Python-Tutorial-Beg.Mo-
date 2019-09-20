@@ -1,29 +1,24 @@
-# class Person:
-#     def getName(self):
-#         print("mo")
-#
-#     def getAge(self):
-#         print("30")
-#
-#
-# p = Person()
-# p.getName()
-# p.getAge()
+
+class Parent:
+    def __init__ (self):
+        print("This is the PARENT class")
+
+    def parentFunc(self):
+        print("This is the PARENT function")
 
 
-class Person:
-    def __init__ (self ,name , age):
-        self.name = name
-        self.age = age
+p = Parent()
+p.parentFunc()
 
-    def getName(self):
-        print("your name is "+ self.name)
+class Child(Parent):
+    def __init__(self):
+        print("This is the CHILD class")
 
-    def getAge(self):
-        print("your age is " + self.age)
+    def childFunc(self):
+        print("This is the CHILD function")
 
 
-p = Person("Mo", "22")
-p.getName()
-p.getAge()
+c = Child()
+c.childFunc()
+c.parentFunc()
 

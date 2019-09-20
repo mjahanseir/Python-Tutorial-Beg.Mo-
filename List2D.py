@@ -1,6 +1,11 @@
-numbers= [1,2,3,40,5,6,8,11]
-max=numbers[0]
-for item in numbers:
-    if item>max:
-        max=item
-print(f"The Maximum of list is : {max}")
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
+matrix[0][2]=20
+print(matrix[0][2])
+
+for row in matrix:
+    for item in row:
+        print(item)

@@ -1,11 +1,14 @@
-phone = input("Phone: ")
-dogo_maping= {
-    "1": "One",
-    "2": "Two",
-    "3": "Three"
-}
-str=""
-for number in phone:
-    str+= dogo_maping.get(number, "!") + " "
+# message = input(">")
+# words =message.split(' ')
+# emojis={
+#     ":)": "😊",
+#     ":(": "😒"
+# }
+# output = " "
+# for word in words:
+#     output+= emojis.get(word,word) + " "
+# print(output)
 
-print(str)
+str = "ali is good"
+
+exec(str)
