@@ -4,3 +4,5 @@ for item in numbers:
     if item>max:
         max=item
 print(f"The Maximum of list is : {max}")
+
+print(type(5))
