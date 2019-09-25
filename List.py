@@ -6,3 +6,12 @@ for item in numbers:
 print(f"The Maximum of list is : {max}")
 
 print(type(5))
+"""
+hjfjmgnv 
+kcvxlkmzmv x
+zkmvckxznv xz
+nvkcxzvmlcxkv
+"""
+
+num1 ,num2 =12 ,13
+print(num1)

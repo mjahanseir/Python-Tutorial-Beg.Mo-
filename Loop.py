@@ -17,13 +17,17 @@
 #     for y in range(3) :
 #         print(f"( {x} , {y} )")
 
-numbers = [5,2,5,2,2]
-for i in numbers :
-    output = ''
-    for j in range(i) :
-        output+='X'
-    print(output)
+# numbers = [5,2,5,2,2]
+# for i in numbers :
+#     output = ''
+#     for j in range(i) :
+#         output+='X'
+#     print(output)
+#
+#
+# name = ['John' , 'Mo' , 'Bob', 'Sara']
+# print(name[0:])
 
-
-name = ['John' , 'Mo' , 'Bob', 'Sara']
-print(name[0:])
+listOfNumber= [22,33,44,55,66,77,88,99]
+for item in listOfNumber:
+    print(item)
